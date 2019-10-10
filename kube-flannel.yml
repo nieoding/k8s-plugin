@@ -1,10 +1,3 @@
-apiVersion: kubeadm.k8s.io/v1beta2
-kind: ClusterConfiguration
-kubernetesVersion: 1.16.0
-imageRepository: registry.cn-hangzhou.aliyuncs.com/google_containers
-networking:
-    podSubnet: "10.244.0.0/16"
-[root@master ~]# cat kube-flannel.yml
 ---
 apiVersion: policy/v1beta1
 kind: PodSecurityPolicy
